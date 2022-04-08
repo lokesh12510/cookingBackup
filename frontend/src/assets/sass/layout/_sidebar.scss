@@ -1,0 +1,31 @@
+nav {
+	&.sidebar {
+		background: $primary;
+		z-index: 1000;
+		padding-top: 50px;
+
+		.navclose {
+			height: 50px;
+			width: 50px;
+			justify-content: center;
+			float: right;
+			background: $primary;
+			position: absolute;
+			right: -25px;
+			top:0;
+			border-radius: 18px;
+
+			&:hover {
+				background: rgba($primary, 1);
+			}
+		}
+
+		a {
+			color: $white;
+
+			&:hover {
+				background: rgba($black, 0.1);
+			}
+		}
+	}	
+}

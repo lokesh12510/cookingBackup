@@ -1,0 +1,52 @@
+.order_modal  {
+    .modal-dialog {
+      .modal-content {
+        .modal-header {
+          padding:1rem 1.5rem;
+        
+          h4 {
+            margin-bottom: 0;
+          }
+        }
+        width: 900px;
+        margin-left: -200px;
+        .modal-body {
+          padding:1rem 1.5rem;
+        }
+  
+        .modal-footer {
+          padding:0.5rem 1.5rem;
+        }
+      }
+    }
+  }
+
+  .card:nth-child(2)
+  {
+    background-color: #fafafa !important;
+
+  }
+ .nav-tabs
+ {
+   
+    .nav-item:nth-child(odd)
+    {
+        background-color: #e9c7c6 !important;
+        margin-right: 2px;
+
+    }
+    .nav-item:nth-child(even)
+    {
+        background-color: #ede4e4 !important;
+        margin-right: 2px;
+
+    }
+    .nav-link
+    {
+        color:black;
+    }
+ }
+ .mg-5
+ {
+     margin-left: 5px;
+ }

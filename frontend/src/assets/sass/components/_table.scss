@@ -1,0 +1,28 @@
+.table-responsive {
+  .e-grid {
+    border: none;
+
+    .e-table {
+      border: none;
+      min-width: 855px;
+    }
+
+    .e-gridheader {
+      .e-headercell,
+      .e-detailheadercell {
+          background:  $secondary;
+
+          .e-headercelldiv  {
+            color: $black;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-overflow: inherit;
+          }
+      }
+    }   
+
+    .e-rowcell{
+      font-size: 14px;
+    }
+  }
+}

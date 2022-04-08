@@ -1,0 +1,82 @@
+.home,
+.services,
+.reports,
+.contact,
+.events,
+.support {
+  display: flex;
+  margin-left: 260px;
+  font-size: 2rem;
+}
+
+body {
+  background:#f1f1f1;
+
+}
+
+.container {
+  border: none !important;
+  margin-top: 6rem;
+
+  .card {
+    //border: 0;
+    background: $white;
+    margin:3rem 0 7rem 0;
+    padding: 2.5rem;
+    @include crossBrowser(box-shadow, 0 0 20px rgba(0,0,0,0.06) !important);
+    //border-radius: 25px;
+  }
+}
+
+.MuiButton-text {
+  margin: 0 2rem;
+  padding: 0.5rem 1rem !important;
+
+  .MuiButton-label {
+    color: $link-color;
+  }
+
+  &:hover {
+    background: $primary !important;
+    color: $white !important;
+
+    .MuiButton-label {
+      color:  $white ;
+    }
+  }
+}
+
+h3, .h3 {
+  font-size: 1.6rem;
+}
+
+.btn {
+  border: 0;
+  color: $white;
+  &.btn-primary{
+    background: $primary !important;
+  }
+  &.btn-secondary{
+    background: $secondary !important;
+  }
+
+  &:hover {
+    opacity: 0.95;
+    color: $white;
+  }
+}
+
+.editicon {
+  color: $secondary;
+  fill: $secondary;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.deleteicon {
+  color: $primary;
+  fill: $primary;
+  font-size: 1rem;
+  cursor: pointer;
+}
